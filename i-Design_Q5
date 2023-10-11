@@ -1,0 +1,25 @@
+// package com.java;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the total number of people");
+		int total = sc.nextInt();
+		
+		int dayOne = 2 * total / 7;
+		int dayTwo = 4 * total / 7;
+		int dayThree = total / 7;
+		
+		System.out.println("Number of attendees on day 1 : " + dayOne);
+		System.out.println("Number of attendees on day 2 : " + dayTwo);
+		System.out.println("Number of attendees on day 3 : " + dayThree);
+		
+		sc.close();
+
+	}
+
+}
