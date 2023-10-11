@@ -1,0 +1,21 @@
+// package com.java;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number :");
+		int val = sc.nextInt();
+		
+		String check = (val>0) ? "Positive" : "Negative";
+		
+		System.out.println(check);
+		
+		
+		sc.close();
+	}
+
+}
