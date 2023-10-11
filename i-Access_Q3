@@ -1,0 +1,28 @@
+package com.java;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		int input = sc.nextInt();
+		int position=0;
+
+		while(input>0){
+			position++;
+			if((input & 1)==1){
+				break;
+			}
+			input = input >> 1;
+		}
+		System.out.println(position-1);
+		sc.close();
+
+	}
+
+}
+
+
+
